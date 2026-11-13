@@ -1,0 +1,28 @@
+# ====================================
+# Ethereum / Geth
+# ====================================
+# Node databases, keystores and IPC sockets
+blockchain/node*/
+
+# ====================================
+# Truffle
+# ====================================
+truffle/node_modules/
+truffle/build/
+
+# ====================================
+# Secrets
+# ====================================
+.env
+.env.*
+!.env.example
+*.secret
+*.key
+password.txt
+
+# ====================================
+# Logs and temporary files
+# ====================================
+*.log
+*.tmp
+.DS_Store
